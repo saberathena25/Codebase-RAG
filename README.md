@@ -1,7 +1,5 @@
 # Codebase RAG - Chat with Your Code Using AI
 
-🎓 **B.Tech Final Year / Academic Project**
-
 An intelligent AI-powered assistant that allows developers to interact with their codebase using natural language.
 
 `Python` `FastAPI` `Tests` `Coverage` `License`
@@ -12,14 +10,7 @@ Features • Demo • Tech Stack • Quick Start • Architecture
 
 ## 👨‍🎓 About This Project
 
-This project was built as part of my B.Tech coursework/final-year project to explore Retrieval-Augmented Generation (RAG), vector search, and applied LLM engineering. It demonstrates practical, hands-on implementation of concepts from Information Retrieval, NLP, and Software Engineering — combining a FastAPI backend, a FAISS-based vector database, and Google's Gemini 2.5 Flash LLM into a working full-stack application.
-
-- **Student:** [Your Name]
-- **Roll No / Reg No:** [Your Roll Number]
-- **College/University:** [Your College Name]
-- **Branch:** Computer Science / [Your Branch]
-- **Year:** [Your Year, e.g., Final Year, 2025–26]
-- **Guide/Mentor (if applicable):** [Guide's Name]
+This project was built to explore Retrieval-Augmented Generation (RAG), vector search, and applied LLM engineering. It demonstrates practical, hands-on implementation of concepts from Information Retrieval, NLP, and Software Engineering — combining a FastAPI backend, a FAISS-based vector database, and Google's Gemini 2.5 Flash LLM into a working full-stack application.
 
 ---
 
@@ -105,14 +96,14 @@ corresponding view function..."
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/codebase-rag.git
-cd codebase-rag
+git clone https://github.com/saberathena25/codebase-RAG.git
+cd codebase-RAG
 ```
 
 2. **Create virtual environment**
 ```bash
-python3 -m venv codebase-rag-env
-source codebase-rag-env/bin/activate  # On Windows: codebase-rag-env\Scripts\activate
+python3 -m venv codebase-RAG-env
+source codebase-rag-env/bin/activate  # On Windows: codebase-RAG-env\Scripts\activate
 ```
 
 3. **Install dependencies**
@@ -126,7 +117,7 @@ pip install -r requirements.txt
 cp .env.example .env
 
 # Edit .env and add your Gemini API key
-# GEMINI_API_KEY=your_api_key_here
+# GEMINI_API_KEY= ****************
 ```
 
 5. **Run the system**
@@ -145,7 +136,7 @@ streamlit run frontend/app.py
 ## 📁 Project Structure
 
 ```
-codebase-rag/
+codebase-RAG/
 ├── backend/
 │   ├── api/              # FastAPI REST endpoints
 │   │   ├── main.py       # Main API application
@@ -338,17 +329,11 @@ TOP_N = 5                     # Final results to use
 
 ## 🤝 Contributing
 
-This started as an academic/personal project, but contributions, suggestions, and feedback are welcome!
-
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
@@ -357,15 +342,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - FastAPI - Modern Python web framework
 - Streamlit - Interactive UI framework
 - Tree-sitter - Code parsing library
-- [Guide/Mentor's Name] - Project guidance and support (if applicable)
-
-## 📧 Contact
-
-- **GitHub:** [Your GitHub Profile]
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** [Your Email]
-- **Project Link:** https://github.com/Lohith625/codebase-rag
-
-⭐ Star this repo if you find it useful!
-
-Made with ❤️ and 🤖 by **[Your Name]** — B.Tech Student, [Your College Name]
